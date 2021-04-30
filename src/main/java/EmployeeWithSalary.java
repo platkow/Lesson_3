@@ -22,7 +22,7 @@ public class EmployeeWithSalary {
         this.salary = salary;
     }
 
-    //Getters
+    //Getter
     public int getSalary() {
         return salary;
     }

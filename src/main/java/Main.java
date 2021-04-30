@@ -47,7 +47,6 @@ public class Main {
         } while (employeeCounter < 6);
 
         do {
-            //Display menu
             displayMenu();
 
             //Get option value
@@ -125,8 +124,7 @@ public class Main {
     }
 
     public static void displayMenu() {
-        System.out.println();
-        System.out.println(" Menu \n 1 – Print sum of all employees salary \n 2 – Display all employees data \n 3 – Add new employee \n 4 – End program \n");
+        System.out.println("\n Menu \n 1 – Print sum of all employees salary \n 2 – Display all employees data \n 3 – Add new employee \n 4 – End program \n");
         System.out.println("Which option do you choose?");
     }
 }
